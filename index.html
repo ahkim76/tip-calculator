@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css" />
+    <title>Tip Calc</title>
+</head>
+<body>
+    <header class="header">
+        <div class="head">
+            <h1 class="title">Amazing Tip Calculator</h1>
+        </div>
+    </header>
+    <main>
+        <div class="operation operation--tip">
+            <h2>Calculate Tip!</h2>
+            <form class="form form--tip">
+              <input type="number" class="form__input form__input--tip-amount" />
+              <input type="number" class="form__input form__input--percent-amount" />
+              <input type="number" class="form__input form__input--people-amount" value='1'/>
+              <button class="form__btn form__btn--tip">&rarr;</button>
+              <label class="form__label form__label--tip">Bill Total</label>
+              <label class="form__label form__label--percent">Percentage (1 - 100)</label>
+              <label class="form__label form__label--people"># of People</label>
+            </form>
+            
+          </div>
+          <h4 class="total-text">Your Total Is...</h4>
+          <h5 class="total">$10</h5>
+          <p class="results-opinion">Lol loser</p>
+          <p class="reset">(Press the dog to reset)</p>
+          <img src="totototo.jpeg" class="tori" alt="PICTURE OF TORI">
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
